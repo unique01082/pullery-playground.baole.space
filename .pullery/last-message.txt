@@ -1,0 +1,13 @@
+Implemented issue #15 and committed it as `ecba3a5` (`feat: support summing arbitrary numbers`).
+
+- Added `src/sum.js` with variadic `sum(...numbers)`.
+- Added four tests covering multiple, single, zero, negative, and decimal inputs.
+- Wrote the required implementation evidence and `.pullery/report.json`.
+- Left the unrelated greeting defect unchanged.
+
+Checks run:
+
+- `npm test` — failed: 5 passed, 1 pre-existing greeting test failed. All new sum tests passed.
+- `node --test test/sum.test.js` — passed: 4 passed, 0 failed.
+
+The implementation is ready for review and a pull request. The greeting failure should be handled separately.
