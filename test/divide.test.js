@@ -15,6 +15,22 @@ test('divides positive decimal operands', () => {
   assert.equal(divide(1.5, 0.5), 3);
 });
 
+test('returns a result below one when the dividend is smaller', () => {
+  assert.equal(divide(2, 8), 0.25);
+});
+
+test('returns one when both operands are equal', () => {
+  assert.equal(divide(7, 7), 1);
+});
+
+test('divides by a positive decimal smaller than one', () => {
+  assert.equal(divide(5, 0.25), 20);
+});
+
+test('divides very small positive operands', () => {
+  assert.equal(divide(0.00048828125, 0.000244140625), 2);
+});
+
 test('rejects non-number operands', () => {
   assert.throws(() => divide('12', 3), TypeError);
   assert.throws(() => divide(12, '3'), TypeError);
