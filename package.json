@@ -1,0 +1,10 @@
+{
+  "name": "pullery-playground",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Pilot repository for Pullery. Deliberately small, with one real defect.",
+  "scripts": {
+    "test": "node --test"
+  }
+}
