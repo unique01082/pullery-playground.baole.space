@@ -1,5 +1,5 @@
 {
-  "image": "ghcr.io/unique01082/pullery-worker@sha256:c0cf88ffa7b85992f770a6e637222fad6b39ef57d25e9189c7c665048965165d",
+  "image": "ghcr.io/unique01082/pullery-worker@sha256:5f978b036b0921248bb569c7e2f7b66beacbaa4b65173baec62d545436d6627f",
   "setup": null,
   "syncStrategy": "rebase",
   "closeOnMerge": true
